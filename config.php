@@ -9,7 +9,7 @@ define('DB_PASS',""); //password of above user
 define('REDIRECT',""); //URL to redirect to when user logs out or login fails
 define('DAYS_BEFORE',"5"); //How many days before a term quickmail is available
 define('DAYS_AFTER',"10"); //How many days after a term quickmail is available
-define('ENABLED',"false"); //enables or disables mail function for testing and troubleshooting
+define('ENABLED',"true"); //enables or disables mail function for testing and troubleshooting
 define('SUPPORT_EMAIL',""); //email address a user who supports quickmail
 
 
