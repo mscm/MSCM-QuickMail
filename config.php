@@ -1,16 +1,16 @@
 <?php
 
 //Global Configuraton
-define('DOMAIN',"mcnallysmith.local"); //domain where users are located ex: domain.local
-define('DB_SERVER',"kanye.mcnallysmith.local"); //CampusVue database server
-define('DB_CATALOG',"CampusVue"); //Name of CV Database
-define('DB_USER',"quickmail"); //only needs read access
-define('DB_PASS',"mscmquickmail"); //password of above user
-define('REDIRECT',"/dev/quickmail"); //URL to redirect to when user logs out or login fails
+define('DOMAIN',""); //domain where users are located ex: domain.local
+define('DB_SERVER',""); //CampusVue database server
+define('DB_CATALOG',""); //Name of CV Database
+define('DB_USER',""); //only needs read access
+define('DB_PASS',""); //password of above user
+define('REDIRECT',""); //URL to redirect to when user logs out or login fails
 define('DAYS_BEFORE',"5"); //How many days before a term quickmail is available
 define('DAYS_AFTER',"10"); //How many days after a term quickmail is available
 define('ENABLED',"false"); //enables or disables mail function for testing and troubleshooting
-define('SUPPORT_EMAIL',"support@mcnallysmith.edu"); //email address a user who supports quickmail
+define('SUPPORT_EMAIL',""); //email address a user who supports quickmail
 
 
 //DB Connection
